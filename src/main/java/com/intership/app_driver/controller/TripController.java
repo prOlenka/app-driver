@@ -17,7 +17,7 @@ import reactor.core.publisher.Mono;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/driver/trips")
+@RequestMapping("/drv/v1/")
 public class TripController {
 
     private final TripService tripService;

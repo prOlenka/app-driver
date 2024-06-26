@@ -13,7 +13,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/driver/tasks")
+@RequestMapping("/drv/v1/")
 public class TaskController {
 
     private final TaskService taskService;
